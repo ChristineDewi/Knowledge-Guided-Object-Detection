@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="semantic_consistency_matrix_coco_Discretised_2_bins" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="sheep">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.6483516483516484 0.3516483516483517</probabilities>
+		</cpt>
+		<cpt id="cat">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>sheep</parents>
+			<probabilities>0.9830508474576272 0.01694915254237288 0.28125 0.71875</probabilities>
+		</cpt>
+		<cpt id="cow">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>cat</parents>
+			<probabilities>0.8955223880597015 0.1044776119402985 0.1666666666666667 0.8333333333333333</probabilities>
+		</cpt>
+		<cpt id="dog">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>cow</parents>
+			<probabilities>0.984375 0.015625 0.4444444444444444 0.5555555555555556</probabilities>
+		</cpt>
+		<cpt id="horse">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>cow</parents>
+			<probabilities>0.9923076923076923 0.007692307692307693 0.5185185185185185 0.4814814814814815</probabilities>
+		</cpt>
+		<cpt id="surfboard">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.4395604395604396 0.5604395604395604</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.4109.0 ACADEMIC" name="semantic_consistency_matrix_coco_Discretised_2_bins">
+			<node id="cat">
+				<name>cat</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="10" bold="true" />
+				<position>590 235 662 283</position>
+			</node>
+			<node id="dog">
+				<name>dog</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="10" bold="true" />
+				<position>808 235 880 283</position>
+			</node>
+			<node id="horse">
+				<name>horse</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="10" bold="true" />
+				<position>808 308 880 356</position>
+			</node>
+			<node id="sheep">
+				<name>sheep</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="10" bold="true" />
+				<position>481 235 553 283</position>
+			</node>
+			<node id="cow">
+				<name>cow</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="10" bold="true" />
+				<position>699 235 771 283</position>
+			</node>
+			<node id="surfboard">
+				<name>surfboard</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="10" bold="true" />
+				<position>481 308 553 356</position>
+			</node>
+			<textbox>
+				<caption>Input file: semantic_consistency_matrix_coco_Discretised_2_bins.csv\nData rows: 91\nElapsed time: 0.031s\n\nLearning algorithm: Bayesian Search\nAlgorithm parameters:\nIterations: 20\nMax parent count: 8\nSample size: 50\nLink probability: 0.1\nPrior link probability: 0.001\nSeed: 0\nMax search time: 0\nNo background knowledge\n\nBest score in iteration 18: -302.742\nEM Log Likelihood: -221.637</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>10 140 348 378</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>

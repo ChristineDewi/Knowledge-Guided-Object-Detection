@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="CM_freq_info_voc_2_discretised" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="aeroplane">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="bicycle">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="bird">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.4 0.6000000000000001</probabilities>
+		</cpt>
+		<cpt id="boat">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.65 0.35</probabilities>
+		</cpt>
+		<cpt id="bottle">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.6000000000000001 0.4</probabilities>
+		</cpt>
+		<cpt id="bus">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.3 0.7000000000000001</probabilities>
+		</cpt>
+		<cpt id="car">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="cat">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.35 0.65</probabilities>
+		</cpt>
+		<cpt id="chair">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.8 0.2</probabilities>
+		</cpt>
+		<cpt id="cow">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.4 0.6000000000000001</probabilities>
+		</cpt>
+		<cpt id="diningtable">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="dog">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.45 0.55</probabilities>
+		</cpt>
+		<cpt id="horse">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.4 0.6000000000000001</probabilities>
+		</cpt>
+		<cpt id="motorbike">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.4 0.6000000000000001</probabilities>
+		</cpt>
+		<cpt id="pottedplant">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.65 0.35</probabilities>
+		</cpt>
+		<cpt id="sheep">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.35 0.65</probabilities>
+		</cpt>
+		<cpt id="sofa">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.45 0.55</probabilities>
+		</cpt>
+		<cpt id="train">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.15 0.8500000000000001</probabilities>
+		</cpt>
+		<cpt id="tvmonitor">
+			<state id="SHigh_Confident" />
+			<state id="Slow_Confidence" />
+			<probabilities>0.45 0.55</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.4109.0 ACADEMIC" name="CM_freq_info_voc_2_discretised">
+			<node id="aeroplane">
+				<name>aeroplane</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 10 82 58</position>
+			</node>
+			<node id="bicycle">
+				<name>bicycle</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 72 82 120</position>
+			</node>
+			<node id="bird">
+				<name>bird</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 134 82 182</position>
+			</node>
+			<node id="boat">
+				<name>boat</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 196 82 244</position>
+			</node>
+			<node id="bottle">
+				<name>bottle</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 258 82 306</position>
+			</node>
+			<node id="bus">
+				<name>bus</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 320 82 368</position>
+			</node>
+			<node id="car">
+				<name>car</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 382 82 430</position>
+			</node>
+			<node id="cat">
+				<name>cat</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 444 82 492</position>
+			</node>
+			<node id="chair">
+				<name>chair</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 506 82 554</position>
+			</node>
+			<node id="cow">
+				<name>cow</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 568 82 616</position>
+			</node>
+			<node id="diningtable">
+				<name>diningtable</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 630 82 678</position>
+			</node>
+			<node id="dog">
+				<name>dog</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 692 82 740</position>
+			</node>
+			<node id="horse">
+				<name>horse</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 754 82 802</position>
+			</node>
+			<node id="motorbike">
+				<name>motorbike</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 816 82 864</position>
+			</node>
+			<node id="pottedplant">
+				<name>pottedplant</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 878 82 926</position>
+			</node>
+			<node id="sheep">
+				<name>sheep</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 940 82 988</position>
+			</node>
+			<node id="sofa">
+				<name>sofa</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 1002 82 1050</position>
+			</node>
+			<node id="train">
+				<name>train</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 1064 82 1112</position>
+			</node>
+			<node id="tvmonitor">
+				<name>tvmonitor</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 1126 82 1174</position>
+			</node>
+			<textbox>
+				<caption>Input file: CM_freq_info_voc_2_discretised.csv\nData rows: 20\nElapsed time: 0.063s\n\nLearning algorithm: Bayesian Search\nAlgorithm parameters:\nIterations: 20\nMax parent count: 8\nSample size: 50\nLink probability: 0.1\nPrior link probability: 0.001\nSeed: 0\nMax search time: 0\nNo background knowledge\n\nBest score in iteration 0: -259.386\nEM Log Likelihood: -235.3</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>10 1194 237 1432</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>

@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="CM_freq_in_coco_Discretised_2_bins" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="sports_ball">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.4835164835164836 0.5164835164835165</probabilities>
+		</cpt>
+		<cpt id="chair">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.9340659340659342 0.06593406593406594</probabilities>
+		</cpt>
+		<cpt id="bottle">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>chair</parents>
+			<probabilities>0.9176470588235294 0.08235294117647059 0.1666666666666667 0.8333333333333333</probabilities>
+		</cpt>
+		<cpt id="cup">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bottle</parents>
+			<probabilities>0.9367088607594937 0.06329113924050633 0.08333333333333333 0.9166666666666666</probabilities>
+		</cpt>
+		<cpt id="bowl">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>cup</parents>
+			<probabilities>0.88 0.12 0.0625 0.9375</probabilities>
+		</cpt>
+		<cpt id="tv">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bowl</parents>
+			<probabilities>0.8208955223880597 0.1791044776119403 0.125 0.875</probabilities>
+		</cpt>
+		<cpt id="clock">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>tv</parents>
+			<probabilities>0.9482758620689655 0.05172413793103448 0.2727272727272727 0.7272727272727273</probabilities>
+		</cpt>
+		<cpt id="cell_phone">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>clock</parents>
+			<probabilities>0.921875 0.078125 0.1481481481481481 0.8518518518518519</probabilities>
+		</cpt>
+		<cpt id="suitcase">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>sports_ball cell_phone</parents>
+			<probabilities>0.9705882352941176 0.02941176470588235 0.1 0.9 0.3103448275862069 0.6896551724137931 0.05555555555555555 0.9444444444444444</probabilities>
+		</cpt>
+		<cpt id="bird">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>suitcase</parents>
+			<probabilities>0.8409090909090909 0.1590909090909091 0.3404255319148936 0.6595744680851063</probabilities>
+		</cpt>
+		<cpt id="boat">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bird</parents>
+			<probabilities>0.8867924528301886 0.1132075471698113 0.2105263157894737 0.7894736842105263</probabilities>
+		</cpt>
+		<cpt id="truck">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>boat</parents>
+			<probabilities>0.8909090909090909 0.1090909090909091 0.2222222222222222 0.7777777777777777</probabilities>
+		</cpt>
+		<cpt id="bicycle">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>truck</parents>
+			<probabilities>0.8947368421052631 0.1052631578947368 0.1176470588235294 0.8823529411764706</probabilities>
+		</cpt>
+		<cpt id="handbag">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.9010989010989011 0.09890109890109891</probabilities>
+		</cpt>
+		<cpt id="backpack">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>handbag</parents>
+			<probabilities>0.9024390243902439 0.0975609756097561 0.2222222222222222 0.7777777777777777</probabilities>
+		</cpt>
+		<cpt id="bench">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>backpack</parents>
+			<probabilities>0.9078947368421052 0.09210526315789473 0.1333333333333333 0.8666666666666667</probabilities>
+		</cpt>
+		<cpt id="car">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bench</parents>
+			<probabilities>0.9859154929577465 0.01408450704225352 0.45 0.55</probabilities>
+		</cpt>
+		<cpt id="motorcycle">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bicycle</parents>
+			<probabilities>0.8363636363636363 0.1636363636363636 0.1666666666666667 0.8333333333333333</probabilities>
+		</cpt>
+		<cpt id="airplane">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.4945054945054945 0.5054945054945056</probabilities>
+		</cpt>
+		<cpt id="bus">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>motorcycle</parents>
+			<probabilities>0.826923076923077 0.1730769230769231 0.2307692307692308 0.7692307692307692</probabilities>
+		</cpt>
+		<cpt id="horse">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bird</parents>
+			<probabilities>0.6981132075471698 0.3018867924528302 0.131578947368421 0.8684210526315789</probabilities>
+		</cpt>
+		<cpt id="train">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>horse</parents>
+			<probabilities>0.7857142857142857 0.2142857142857143 0.2653061224489796 0.7346938775510203</probabilities>
+		</cpt>
+		<cpt id="traffic_light">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>truck</parents>
+			<probabilities>0.8245614035087718 0.1754385964912281 0.1470588235294118 0.8529411764705882</probabilities>
+		</cpt>
+		<cpt id="fire_hydrant">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.5164835164835165 0.4835164835164836</probabilities>
+		</cpt>
+		<cpt id="stop_sign">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bicycle fire_hydrant</parents>
+			<probabilities>0.8928571428571428 0.1071428571428571 0.03703703703703703 0.9629629629629629 0.2631578947368421 0.7368421052631579 0.2352941176470588 0.7647058823529411</probabilities>
+		</cpt>
+		<cpt id="parking_meter">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>fire_hydrant</parents>
+			<probabilities>0.8297872340425532 0.1702127659574468 0.3181818181818182 0.6818181818181819</probabilities>
+		</cpt>
+		<cpt id="potted_plant">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>clock</parents>
+			<probabilities>0.984375 0.015625 0.4444444444444444 0.5555555555555556</probabilities>
+		</cpt>
+		<cpt id="couch">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>potted_plant tv</parents>
+			<probabilities>0.9818181818181818 0.01818181818181818 0.1 0.9 0.125 0.875 0.07692307692307693 0.9230769230769231</probabilities>
+		</cpt>
+		<cpt id="laptop">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>tv</parents>
+			<probabilities>0.8793103448275862 0.1206896551724138 0.1818181818181818 0.8181818181818182</probabilities>
+		</cpt>
+		<cpt id="teddy_bear">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>suitcase laptop</parents>
+			<probabilities>0.9857142857142857 0.01428571428571429 0.1 0.9 0.4347826086956522 0.5652173913043478 0.125 0.875</probabilities>
+		</cpt>
+		<cpt id="bed">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>teddy_bear</parents>
+			<probabilities>0.8125 0.1875 0.1162790697674419 0.8837209302325582</probabilities>
+		</cpt>
+		<cpt id="cat">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>couch bed</parents>
+			<probabilities>0.9864864864864865 0.01351351351351351 0.3333333333333333 0.6666666666666666 0.125 0.875 0.1923076923076923 0.8076923076923077</probabilities>
+		</cpt>
+		<cpt id="dog">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>cell_phone</parents>
+			<probabilities>0.8571428571428571 0.1428571428571428 0.2142857142857143 0.7857142857142857</probabilities>
+		</cpt>
+		<cpt id="cow">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.6263736263736264 0.3736263736263736</probabilities>
+		</cpt>
+		<cpt id="sheep">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>cow</parents>
+			<probabilities>0.7543859649122806 0.2456140350877193 0.2058823529411765 0.7941176470588235</probabilities>
+		</cpt>
+		<cpt id="elephant">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.5494505494505495 0.4505494505494506</probabilities>
+		</cpt>
+		<cpt id="bear">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.4945054945054945 0.5054945054945056</probabilities>
+		</cpt>
+		<cpt id="giraffe">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.6263736263736264 0.3736263736263736</probabilities>
+		</cpt>
+		<cpt id="zebra">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>giraffe</parents>
+			<probabilities>0.8421052631578947 0.1578947368421053 0.3529411764705882 0.6470588235294118</probabilities>
+		</cpt>
+		<cpt id="umbrella">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bicycle</parents>
+			<probabilities>0.9090909090909091 0.09090909090909091 0.3888888888888888 0.611111111111111</probabilities>
+		</cpt>
+		<cpt id="tie">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bench</parents>
+			<probabilities>0.8028169014084507 0.1971830985915493 0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="frisbee">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.5054945054945056 0.4945054945054945</probabilities>
+		</cpt>
+		<cpt id="skis">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>frisbee</parents>
+			<probabilities>0.8043478260869565 0.1956521739130435 0.2888888888888889 0.7111111111111111</probabilities>
+		</cpt>
+		<cpt id="snowboard">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.6153846153846154 0.3846153846153846</probabilities>
+		</cpt>
+		<cpt id="kite">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.6373626373626374 0.3626373626373627</probabilities>
+		</cpt>
+		<cpt id="baseball_glove">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.5824175824175825 0.4175824175824176</probabilities>
+		</cpt>
+		<cpt id="baseball_bat">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>baseball_glove</parents>
+			<probabilities>0.7924528301886792 0.2075471698113207 0.2368421052631579 0.763157894736842</probabilities>
+		</cpt>
+		<cpt id="skateboard">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.5494505494505495 0.4505494505494506</probabilities>
+		</cpt>
+		<cpt id="surfboard">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.5384615384615385 0.4615384615384616</probabilities>
+		</cpt>
+		<cpt id="hot_dog">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.6043956043956045 0.3956043956043956</probabilities>
+		</cpt>
+		<cpt id="tennis_racket">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>hot_dog</parents>
+			<probabilities>0.7636363636363636 0.2363636363636364 0.25 0.75</probabilities>
+		</cpt>
+		<cpt id="vase">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>couch</parents>
+			<probabilities>0.9122807017543859 0.08771929824561403 0.2352941176470588 0.7647058823529411</probabilities>
+		</cpt>
+		<cpt id="cake">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>vase</parents>
+			<probabilities>0.85 0.15 0.1612903225806452 0.8387096774193548</probabilities>
+		</cpt>
+		<cpt id="knife">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>cake</parents>
+			<probabilities>0.9464285714285714 0.05357142857142857 0.2571428571428571 0.7428571428571429</probabilities>
+		</cpt>
+		<cpt id="pizza">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>cake</parents>
+			<probabilities>0.875 0.125 0.2857142857142857 0.7142857142857143</probabilities>
+		</cpt>
+		<cpt id="sandwich">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>pizza</parents>
+			<probabilities>0.9152542372881356 0.0847457627118644 0.21875 0.78125</probabilities>
+		</cpt>
+		<cpt id="spoon">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>sandwich</parents>
+			<probabilities>0.9508196721311476 0.04918032786885246 0.3666666666666666 0.6333333333333333</probabilities>
+		</cpt>
+		<cpt id="wine_glass">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>knife spoon</parents>
+			<probabilities>0.9473684210526315 0.05263157894736842 0.2 0.8 0.25 0.75 0.1176470588235294 0.8823529411764706</probabilities>
+		</cpt>
+		<cpt id="fork">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>pizza</parents>
+			<probabilities>0.9491525423728814 0.05084745762711865 0.34375 0.65625</probabilities>
+		</cpt>
+		<cpt id="carrot">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>sandwich</parents>
+			<probabilities>0.819672131147541 0.180327868852459 0.2666666666666667 0.7333333333333333</probabilities>
+		</cpt>
+		<cpt id="orange">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>carrot</parents>
+			<probabilities>0.8793103448275862 0.1206896551724138 0.2424242424242424 0.7575757575757576</probabilities>
+		</cpt>
+		<cpt id="book">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bowl</parents>
+			<probabilities>0.9552238805970149 0.04477611940298507 0.2916666666666666 0.7083333333333333</probabilities>
+		</cpt>
+		<cpt id="banana">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>orange book</parents>
+			<probabilities>0.9895833333333333 0.01041666666666667 0.4166666666666666 0.5833333333333333 0.2916666666666666 0.7083333333333333 0.375 0.625</probabilities>
+		</cpt>
+		<cpt id="apple">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>orange</parents>
+			<probabilities>0.9322033898305084 0.06779661016949153 0.34375 0.65625</probabilities>
+		</cpt>
+		<cpt id="broccoli">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>carrot</parents>
+			<probabilities>0.8448275862068966 0.1551724137931035 0.303030303030303 0.696969696969697</probabilities>
+		</cpt>
+		<cpt id="donut">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>sandwich</parents>
+			<probabilities>0.8852459016393444 0.1147540983606557 0.2666666666666667 0.7333333333333333</probabilities>
+		</cpt>
+		<cpt id="dining_table">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>cup clock</parents>
+			<probabilities>0.9918032786885247 0.00819672131147541 0.6 0.4 0.25 0.75 0.1666666666666667 0.8333333333333333</probabilities>
+		</cpt>
+		<cpt id="toothbrush">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.5714285714285715 0.4285714285714286</probabilities>
+		</cpt>
+		<cpt id="toilet">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>toothbrush</parents>
+			<probabilities>0.826923076923077 0.1730769230769231 0.1538461538461539 0.8461538461538461</probabilities>
+		</cpt>
+		<cpt id="keyboard">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>laptop</parents>
+			<probabilities>0.7543859649122806 0.2456140350877193 0.05882352941176471 0.9411764705882353</probabilities>
+		</cpt>
+		<cpt id="mouse">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>keyboard</parents>
+			<probabilities>0.8222222222222223 0.1777777777777778 0.2173913043478261 0.7826086956521738</probabilities>
+		</cpt>
+		<cpt id="remote">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>bed keyboard</parents>
+			<probabilities>0.986111111111111 0.01388888888888889 0.3333333333333333 0.6666666666666666 0.3 0.7000000000000001 0.1621621621621622 0.8378378378378379</probabilities>
+		</cpt>
+		<cpt id="oven">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>wine_glass</parents>
+			<probabilities>0.8333333333333334 0.1666666666666667 0.2903225806451613 0.7096774193548387</probabilities>
+		</cpt>
+		<cpt id="microwave">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>oven</parents>
+			<probabilities>0.7457627118644068 0.2542372881355932 0.15625 0.84375</probabilities>
+		</cpt>
+		<cpt id="scissors">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.4945054945054945 0.5054945054945056</probabilities>
+		</cpt>
+		<cpt id="toaster">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>scissors</parents>
+			<probabilities>0.888888888888889 0.1111111111111111 0.3695652173913043 0.6304347826086957</probabilities>
+		</cpt>
+		<cpt id="sink">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>oven</parents>
+			<probabilities>0.9152542372881356 0.0847457627118644 0.1875 0.8125</probabilities>
+		</cpt>
+		<cpt id="refrigerator">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<parents>oven vase</parents>
+			<probabilities>0.9782608695652174 0.02173913043478261 0.3846153846153846 0.6153846153846154 0.2857142857142857 0.7142857142857142 0.02631578947368421 0.9736842105263157</probabilities>
+		</cpt>
+		<cpt id="hair_dryer">
+			<state id="SHigh_Confidence" />
+			<state id="SLow_Confidence" />
+			<probabilities>0.5934065934065934 0.4065934065934066</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.4109.0 ACADEMIC" name="CM_freq_in_coco_Discretised_2_bins">
+			<node id="bicycle">
+				<name>bicycle</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1033 10 1105 58</position>
+			</node>
+			<node id="car">
+				<name>car</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>289 10 361 58</position>
+			</node>
+			<node id="motorcycle">
+				<name>motorcycle</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1126 10 1198 58</position>
+			</node>
+			<node id="airplane">
+				<name>airplane</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 10 82 58</position>
+			</node>
+			<node id="bus">
+				<name>bus</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1219 10 1291 58</position>
+			</node>
+			<node id="train">
+				<name>train</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>940 10 1012 58</position>
+			</node>
+			<node id="truck">
+				<name>truck</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>940 72 1012 120</position>
+			</node>
+			<node id="boat">
+				<name>boat</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>847 10 919 58</position>
+			</node>
+			<node id="traffic_light">
+				<name>traffic_light</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1033 72 1105 120</position>
+			</node>
+			<node id="fire_hydrant">
+				<name>fire_hydrant</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 72 82 120</position>
+			</node>
+			<node id="stop_sign">
+				<name>stop_sign</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1126 72 1198 120</position>
+			</node>
+			<node id="parking_meter">
+				<name>parking_meter</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 10 175 58</position>
+			</node>
+			<node id="bench">
+				<name>bench</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>196 10 268 58</position>
+			</node>
+			<node id="bird">
+				<name>bird</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>754 10 826 58</position>
+			</node>
+			<node id="cat">
+				<name>cat</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>940 134 1012 182</position>
+			</node>
+			<node id="dog">
+				<name>dog</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>661 10 733 58</position>
+			</node>
+			<node id="horse">
+				<name>horse</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>847 72 919 120</position>
+			</node>
+			<node id="sheep">
+				<name>sheep</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 72 175 120</position>
+			</node>
+			<node id="cow">
+				<name>cow</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 134 82 182</position>
+			</node>
+			<node id="elephant">
+				<name>elephant</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 196 82 244</position>
+			</node>
+			<node id="bear">
+				<name>bear</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 258 82 306</position>
+			</node>
+			<node id="zebra">
+				<name>zebra</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 134 175 182</position>
+			</node>
+			<node id="giraffe">
+				<name>giraffe</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 320 82 368</position>
+			</node>
+			<node id="backpack">
+				<name>backpack</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 196 175 244</position>
+			</node>
+			<node id="umbrella">
+				<name>umbrella</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1126 134 1198 182</position>
+			</node>
+			<node id="handbag">
+				<name>handbag</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 382 82 430</position>
+			</node>
+			<node id="tie">
+				<name>tie</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>289 72 361 120</position>
+			</node>
+			<node id="suitcase">
+				<name>suitcase</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>661 72 733 120</position>
+			</node>
+			<node id="frisbee">
+				<name>frisbee</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 444 82 492</position>
+			</node>
+			<node id="skis">
+				<name>skis</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 258 175 306</position>
+			</node>
+			<node id="snowboard">
+				<name>snowboard</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 506 82 554</position>
+			</node>
+			<node id="sports_ball">
+				<name>sports_ball</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 568 82 616</position>
+			</node>
+			<node id="kite">
+				<name>kite</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 630 82 678</position>
+			</node>
+			<node id="baseball_bat">
+				<name>baseball_bat</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 320 175 368</position>
+			</node>
+			<node id="baseball_glove">
+				<name>baseball_glove</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 692 82 740</position>
+			</node>
+			<node id="skateboard">
+				<name>skateboard</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 754 82 802</position>
+			</node>
+			<node id="surfboard">
+				<name>surfboard</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 816 82 864</position>
+			</node>
+			<node id="tennis_racket">
+				<name>tennis_racket</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 382 175 430</position>
+			</node>
+			<node id="bottle">
+				<name>bottle</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 444 175 492</position>
+			</node>
+			<node id="wine_glass">
+				<name>wine_glass</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1219 72 1291 120</position>
+			</node>
+			<node id="cup">
+				<name>cup</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>196 72 268 120</position>
+			</node>
+			<node id="fork">
+				<name>fork</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1033 134 1105 182</position>
+			</node>
+			<node id="knife">
+				<name>knife</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>940 196 1012 244</position>
+			</node>
+			<node id="spoon">
+				<name>spoon</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1126 196 1198 244</position>
+			</node>
+			<node id="bowl">
+				<name>bowl</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>289 134 361 182</position>
+			</node>
+			<node id="banana">
+				<name>banana</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1312 10 1384 58</position>
+			</node>
+			<node id="apple">
+				<name>apple</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1312 72 1384 120</position>
+			</node>
+			<node id="sandwich">
+				<name>sandwich</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1033 196 1105 244</position>
+			</node>
+			<node id="orange">
+				<name>orange</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1219 134 1291 182</position>
+			</node>
+			<node id="broccoli">
+				<name>broccoli</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1219 196 1291 244</position>
+			</node>
+			<node id="carrot">
+				<name>carrot</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1126 258 1198 306</position>
+			</node>
+			<node id="hot_dog">
+				<name>hot_dog</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 878 82 926</position>
+			</node>
+			<node id="pizza">
+				<name>pizza</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>940 258 1012 306</position>
+			</node>
+			<node id="donut">
+				<name>donut</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1126 320 1198 368</position>
+			</node>
+			<node id="cake">
+				<name>cake</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>847 134 919 182</position>
+			</node>
+			<node id="chair">
+				<name>chair</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 940 82 988</position>
+			</node>
+			<node id="couch">
+				<name>couch</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>661 134 733 182</position>
+			</node>
+			<node id="potted_plant">
+				<name>potted_plant</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>568 10 640 58</position>
+			</node>
+			<node id="bed">
+				<name>bed</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>847 196 919 244</position>
+			</node>
+			<node id="dining_table">
+				<name>dining_table</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>568 72 640 120</position>
+			</node>
+			<node id="toilet">
+				<name>toilet</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 506 175 554</position>
+			</node>
+			<node id="tv">
+				<name>tv</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>382 10 454 58</position>
+			</node>
+			<node id="laptop">
+				<name>laptop</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>475 10 547 58</position>
+			</node>
+			<node id="mouse">
+				<name>mouse</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>661 196 733 244</position>
+			</node>
+			<node id="remote">
+				<name>remote</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>940 320 1012 368</position>
+			</node>
+			<node id="keyboard">
+				<name>keyboard</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>568 134 640 182</position>
+			</node>
+			<node id="cell_phone">
+				<name>cell_phone</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>568 196 640 244</position>
+			</node>
+			<node id="microwave">
+				<name>microwave</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1405 10 1477 58</position>
+			</node>
+			<node id="oven">
+				<name>oven</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1312 134 1384 182</position>
+			</node>
+			<node id="toaster">
+				<name>toaster</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 568 175 616</position>
+			</node>
+			<node id="sink">
+				<name>sink</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1405 72 1477 120</position>
+			</node>
+			<node id="refrigerator">
+				<name>refrigerator</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1405 134 1477 182</position>
+			</node>
+			<node id="book">
+				<name>book</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>382 72 454 120</position>
+			</node>
+			<node id="clock">
+				<name>clock</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>475 72 547 120</position>
+			</node>
+			<node id="vase">
+				<name>vase</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>754 72 826 120</position>
+			</node>
+			<node id="scissors">
+				<name>scissors</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 1002 82 1050</position>
+			</node>
+			<node id="teddy_bear">
+				<name>teddy_bear</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>754 134 826 182</position>
+			</node>
+			<node id="hair_dryer">
+				<name>hair_dryer</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 1064 82 1112</position>
+			</node>
+			<node id="toothbrush">
+				<name>toothbrush</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 1126 82 1174</position>
+			</node>
+			<textbox>
+				<caption>Input file: CM_freq_in_coco_Discretised_2_bins.csv\nData rows: 91\nElapsed time: 6.5s\n\nLearning algorithm: Bayesian Search\nAlgorithm parameters:\nIterations: 20\nMax parent count: 8\nSample size: 50\nLink probability: 0.1\nPrior link probability: 0.001\nSeed: 0\nMax search time: 0\nNo background knowledge\n\nBest score in iteration 0: -4483.88\nEM Log Likelihood: -3298.6</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>10 1194 260 1432</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>
