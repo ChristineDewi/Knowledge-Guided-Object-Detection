@@ -1,6 +1,22 @@
 
 Code for replicating the paper "Knowledge-Guided Object Detection".
 
+This paper has three main contributions:
+1) We propose a new approach that combines knowledge
+graphs and BN to assist with object detection, that
+integrates knowledge graphs with a BN.
+2) We present a technique for creating task-specific
+knowledge graphs that accurately represent contextual
+relationships that are essential to object detection ob-
+ject detection performance.
+3) We validate the efficacy of our method by conducting
+thorough assessments on widely accepted and difficult
+item detection benchmarks COCO dataset [14]. Our
+proposed model demonstrates a significant mAP boost,
+up to 2.02%, relative to the state-of-the-art baseline.
+
+![image](https://github.com/user-attachments/assets/76fefaa3-bc46-4463-9c93-d14b9f901749)
+
 Source:
 Code for replicating the paper "Object Detection Meets Knowledge Graphs".
 
