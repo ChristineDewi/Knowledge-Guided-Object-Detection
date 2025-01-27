@@ -1,4 +1,7 @@
 
+Code for replicating the paper "Knowledge-Guided Object Detection".
+
+Source:
 Code for replicating the paper "Object Detection Meets Knowledge Graphs".
 
 # Description
