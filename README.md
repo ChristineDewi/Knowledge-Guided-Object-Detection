@@ -1,6 +1,9 @@
 
 Code for replicating the paper "Knowledge-Guided Object Detection".
 
+Christine Dewi, Rasoul Amirzadeh, Dhananjay Thiruvady, and Nayyar Zaidi
+Deakin University, VIC 3220, Australia.
+
 This paper has three main contributions:
 1) We propose a new approach that combines knowledge
 graphs and BN to assist with object detection, that
