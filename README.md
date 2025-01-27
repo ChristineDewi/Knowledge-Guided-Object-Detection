@@ -1,5 +1,5 @@
 
-Code for replicating the paper "Knowledge-Guided Object Detection".
+# Code for replicating the paper "Knowledge-Guided Object Detection".
 
 Christine Dewi, Rasoul Amirzadeh, Dhananjay Thiruvady, and Nayyar Zaidi
 Deakin University, VIC 3220, Australia.
