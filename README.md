@@ -1,5 +1,7 @@
 
 # "Knowledge-Guided Object Detection".
+**Knowledge-Guided Object Detection via Bayesian Networks and Knowledge Graphs (KGB-
+NCNet)**
 
 Christine Dewi, Rasoul Amirzadeh, Dhananjay Thiruvady, and Nayyar Zaidi
 Deakin University, VIC 3220, Australia.
@@ -19,6 +21,7 @@ proposed model demonstrates a significant mAP boost,
 up to 2.02%, relative to the state-of-the-art baseline.
 
 ![image](https://github.com/user-attachments/assets/76fefaa3-bc46-4463-9c93-d14b9f901749)
+<img width="695" height="431" alt="image" src="https://github.com/user-attachments/assets/48a402b0-1fe3-4cf9-adf0-697eae52c408" />
 
 Source:
 Code for replicating the paper "Object Detection Meets Knowledge Graphs".
@@ -152,6 +155,9 @@ The assertion lists (knowledge graphs) can be downloaded at
 
 for this approach versions 5.7.0 and 5.5.0 are used.
 
+<img width="1016" height="477" alt="image" src="https://github.com/user-attachments/assets/f87e45f7-8ccc-4e66-ae90-d540f06ed30f" />
+
+
 ### structure
 
 make sure the raw data folder is structured correctly:
@@ -258,3 +264,11 @@ There was no source code available, which made it difficult to understand some t
 ### Contact with the authors
 
 We contacted the authors to elaborate on missing details, however no contact was found with the contact-information on the paper. Fortunately, a different email address of Yuan Fang was found online, to which he did respond fast and with clear explanations, for which we would like to express our gratitude.
+
+**Our Proposed Method**
+<img width="875" height="461" alt="image" src="https://github.com/user-attachments/assets/32dfaae3-d945-468c-9471-db2a837f3a7a" />
+
+**Citation**
+Expert Systems with Applications 2025
+
+
