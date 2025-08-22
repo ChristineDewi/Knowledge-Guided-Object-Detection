@@ -270,5 +270,29 @@ We contacted the authors to elaborate on missing details, however no contact was
 
 **Citation**
 Expert Systems with Applications 2025
+Knowledge-guided object detection via Bayesian networks and knowledge graphs (KGBNCNet)
+https://doi.org/10.1016/j.eswa.2025.129385 
+
+@article{dewi2025knowledge,
+  title={Knowledge-Guided Object Detection via Bayesian Networks and Knowledge Graphs (KGBNCNet)},
+  author={Dewi, Christine and Amirzadeh, Rasoul and Thiruvady, Dhananjay and Zaidi, Nayyar},
+  journal={Expert Systems with Applications},
+  pages={129385},
+  year={2025},
+  publisher={Elsevier}
+}
+@article{DEWI2026129385,
+title = {Knowledge-guided object detection via Bayesian networks and knowledge graphs (KGBNCNet)},
+journal = {Expert Systems with Applications},
+volume = {297},
+pages = {129385},
+year = {2026},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2025.129385},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417425029975},
+author = {Christine Dewi and Rasoul Amirzadeh and Dhananjay Thiruvady and Nayyar Zaidi},
+keywords = {Knowledge-guided, Bayesian networks, Object detection, Knowledge graph,},
+abstract = {Object detection is a crucial problem in computer vision that integrates image categorization and localization to recognize objects within an image or video. It serves a pivotal function in numerous practical applications. However, existing state-of-the-art object detection algorithms largely ignore the vast quantity of background knowledge about the real world to detect small objects, including deep neural networks, which only focus on utilizing features within an image. An excessive number of items in an image always leads to occlusion, target blur, and other complications, making object detection more challenging. The detection problem is solely addressed in terms of feature extraction in object detection using a convolutional neural networks, which ignore knowledge and experience to investigate higher-level relationships between objects. This research introduces a novel approach that integrates a knowledge graph with Bayesian networks to improve the accuracy of standard object detection algorithms, as Bayesian networks provide a structured way to incorporate prior knowledge and model the probabilistic relationships between objects. The proposed framework can seamlessly incorporate any external knowledge and object detection system. This integration enhances object detection by undergoing a re-optimization process to achieve improved consistency with background knowledge. Finally, our proposed method was empirically evaluated on COCO benchmark datasets. The results demonstrate a significant boost in mAP, up to 2.02 %, relative to the state-of-the-art baseline.}
+}
 
 
